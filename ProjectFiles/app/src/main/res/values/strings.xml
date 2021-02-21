@@ -1,5 +1,55 @@
 <resources>
+    //SplashScreen
     <string name="app_name">Basic German Language Help</string>
-
     <string name="warning">DO NOT HAND YOUR DEVICE TO ANYONE</string>
+
+    //--------------------------------------------------------------------
+    
+    //AboutScreen
+    <string name="Main_TitleA">Assessment Details</string>
+    <string name="Main_TitleB">Candidate Details</string>
+
+    //Subtitles For Assessment Info
+    <string name="Asse_SubTitleA">Outcome Name</string>
+    <string name="Asse_SubTitleB">Application Due Date</string>
+    <string name="Asse_SubTitleC">Date Of Completion</string>
+    <string name="Asse_SubTitleD">Attempt</string>
+
+    //Subtitles For Candidate Info
+    <string name="Cand_SubTitleA">Name</string>
+    <string name="Cand_SubTitleB">College Number</string>
+    <string name="Cand_SubTitleC">Git-Hub Username</string>
+
+    //Information For Assessment Info
+    <string name="Asse_ADD">2nd April 2021</string>
+    <string name="Asse_DOC">UNKNOWN</string>
+    <string name="Asse_N">1</string>
+
+    //Information For Candidate Info
+    <string name="Cand_N">Aaron Hamilton</string>
+    <string name="Cand_ColNum">A0093588</string>
+    <string name="Cand_GHU">aaron-hamil5</string>
+
+    //--------------------------------------------------------------------
+    //MAIN MENU
+    <string name="BigText">Big Text Mode</string>
+    <string name="Num">Phone Numbers</string>
+    <string name="About">About App v1</string>
+
+    //--------------------------------------------------------------------
+    //PHONE NUMBERS
+    <string name="Pol">Police</string>
+    <string name="Amb">Ambulance</string>
+    <string name="Fir">Fire Service</string>
+    <string name="AmbFirNum">112 - Request</string>
+    <string name="PolNum">110</string>
+
+    //--------------------------------------------------------------------
+    //PRE BIG TEXT
+    <string name="usersName">Type in your name:</string>
+    <string name="EditHint">Full Name</string>
+    <string name="tickIf"> Tick this if you are alone:</string>
+    <string name="butLaunch"> Launch Personal Safety</string>
+    <string name="butDone">Done</string>
+
 </resources>

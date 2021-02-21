@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/Theme.AskForName"
+            android:text="@string/usersName" />
+
+        <EditText
+            style="@style/editText"
+            android:autofillHints="Name"
+            android:hint="@string/EditHint"
+            android:inputType="" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+
+        <TextView
+            style="@style/Theme.AskForName"
+            android:text="@string/tickIf" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+
+        <Button
+            style="@style/PreButtons"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="100dp"
+            android:onClick="LaunchApp"
+            android:text="@string/butLaunch" />
+
+        <Button
+            style="@style/PreButtons"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:onClick="LaunchBigText"
+            android:text="@string/butDone" />
+    </LinearLayout>
+</LinearLayout>

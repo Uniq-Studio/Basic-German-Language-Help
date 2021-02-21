@@ -10,17 +10,30 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BasicGermanLanguageHelp">
 
-        <activity   android:name=".MainMenuActivity"
-                    android:theme="@style/Theme.BasicGermanLanguageHelp"/>
+        <activity
+            android:name=".MainMenuActivity"
+            android:theme="@style/Theme.BasicGermanLanguageHelp" />
 
-        <activity   android:name=".SplashScreen"
-                    android:theme="@style/Theme.Splashscreen">
+        <activity
+            android:name=".AboutScreen"
+            android:theme="@style/Theme.Splashscreen" />
+
+        <activity
+            android:name=".NumberScreen"
+            android:theme="@style/Theme.BasicGermanLanguageHelp" />
+
+        <activity
+            android:name=".PreBigTexActivity"
+            android:theme="@style/Theme.BasicGermanLanguageHelp" />
+
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/Theme.Splashscreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
 
 
     </application>

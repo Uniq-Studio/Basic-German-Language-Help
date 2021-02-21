@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/BigTextMenu"
+        android:title="@string/BigText" />
+    <item
+        android:id="@+id/NumMenu"
+        android:title="@string/Num" />
+    <item
+        android:id="@+id/AboutMenu"
+        android:title="@string/About" />
+</menu>
