@@ -15,6 +15,7 @@
             android:text="@string/usersName" />
 
         <EditText
+            android:id="@+id/editText"
             style="@style/editText"
             android:autofillHints="Name"
             android:hint="@string/EditHint"
@@ -33,6 +34,7 @@
             android:text="@string/tickIf" />
 
         <CheckBox
+            android:id="@+id/alone"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal" />
@@ -56,6 +58,7 @@
             android:text="@string/butLaunch" />
 
         <Button
+            android:id="@+id/launchButton"
             style="@style/PreButtons"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="25dp"

@@ -52,4 +52,11 @@
     <string name="butLaunch"> Launch Personal Safety</string>
     <string name="butDone">Done</string>
 
+    //--------------------------------------------------------------------
+    //BIG TEXT
+    <string name="Line1">Hallo, ich bin</string>
+    <string name="Line3True"> Ich bin allein und verloren. Bitte bringen Sie mich zur nächsten Polizeistation.</string>
+    <string name="Line3False">Wir sind verloren. Bitte bringen Sie uns zur nächsten Polizeistation.</string>
+    <string name="Line4">Die persönliche Sicherheit ist aktiv und Familienmitglieder verfolgen dieses Telefon</string>
+
 </resources>

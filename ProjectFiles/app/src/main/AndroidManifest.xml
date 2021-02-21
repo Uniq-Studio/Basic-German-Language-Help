@@ -27,6 +27,10 @@
             android:theme="@style/Theme.BasicGermanLanguageHelp" />
 
         <activity
+            android:name=".BigTextActivity"
+            android:theme="@style/Theme.Splashscreen" />
+
+        <activity
             android:name=".SplashScreen"
             android:theme="@style/Theme.Splashscreen">
             <intent-filter>

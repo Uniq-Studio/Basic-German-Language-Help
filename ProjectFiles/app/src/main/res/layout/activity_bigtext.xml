@@ -3,12 +3,30 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:tool="http://schemas.android.com/tools"
-    android:background="@color/black">
+    android:background="@color/black"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/Theme.BigText"
+        android:text="@string/Line1"/>
+
+    <TextView
+        android:id="@+id/NameBox"
+        style="@style/Theme.BigText"
+        tool:text="Aaron Hamilton "/>
+
+    <TextView
+        android:id="@+id/aloneText"
+        style="@style/Theme.BigText"
+        tool:text="Ich bin allein und brauche Hilfe. Bitte bringen Sie mich zur nachsten Polizeistation"/>
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="55sp"
-        tool:text="Hallo"/>
+        android:layout_height="match_parent"
+        android:textColor="@color/cardview_dark_background"
+        android:textAlignment="center"
+        android:layout_margin="20dp"
+        android:textSize="15sp"
+        android:text="@string/Line4"/>
 
 </LinearLayout>
