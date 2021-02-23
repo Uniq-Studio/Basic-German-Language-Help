@@ -12,7 +12,8 @@
 
         <activity
             android:name=".MainMenuActivity"
-            android:theme="@style/Theme.BasicGermanLanguageHelp" />
+            android:theme="@style/Theme.BasicGermanLanguageHelp"
+            android:screenOrientation="portrait"/>
 
         <activity
             android:name=".AboutScreen"
@@ -29,6 +30,22 @@
         <activity
             android:name=".BigTextActivity"
             android:theme="@style/Theme.Splashscreen" />
+
+        <activity android:name=".NumberActivity"
+            android:theme="@style/Theme.BasicGermanLanguageHelp"
+            android:label="@string/NumAct"/>
+
+        <activity android:name=".FamilyActivity"
+            android:theme="@style/Theme.BasicGermanLanguageHelp"
+            android:label="@string/FamAct"/>
+
+        <activity android:name=".ColorActivity"
+            android:theme="@style/Theme.BasicGermanLanguageHelp"
+            android:label="@string/ColAct"/>
+
+        <activity android:name=".PhrasesActivity"
+            android:theme="@style/Theme.BasicGermanLanguageHelp"
+            android:label="@string/PhrAct"/>
 
         <activity
             android:name=".SplashScreen"

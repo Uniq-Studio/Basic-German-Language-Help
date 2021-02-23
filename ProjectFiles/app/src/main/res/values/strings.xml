@@ -60,11 +60,12 @@
     <string name="Line4">Die persönliche Sicherheit ist aktiv und Familienmitglieder verfolgen dieses Telefon</string>
 
     //--------------------------------------------------------------------
-    //CARDVIEW
+    //CARD VIEW
     <string name="FamAct">Family</string>
     <string name="NumAct">Numbers</string>
     <string name="ColAct">Colours</string>
     <string name="PhrAct">Phrases</string>
+    <string name="EmeAct">In case of an emergency, use the top right menu</string>
     <string name="play_button">Play Button</string>
     <string name="image">Image</string>
 
