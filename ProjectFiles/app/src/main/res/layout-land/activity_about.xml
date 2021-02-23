@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Theme.AsseBackground">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <RelativeLayout
+        style="@style/Theme.PicBackground">
+
+        <ImageView
+            style="@style/Theme.CenterPic"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/a0093588" />
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        style="@style/Theme.CanBackground"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+        <TextView
+            style="@style/Theme.MainTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="@string/Main_TitleB" />
+
+        <TextView
+            style="@style/Theme.Subtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Cand_SubTitleA" />
+
+        <TextView
+            style="@style/Theme.Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Cand_N" />
+
+        <TextView
+            style="@style/Theme.Subtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Cand_SubTitleB" />
+
+        <TextView
+            style="@style/Theme.Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Cand_ColNum" />
+
+        <TextView
+            style="@style/Theme.Subtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Cand_SubTitleC" />
+
+        <TextView
+            style="@style/Theme.Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Cand_GHU" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            style="@style/Theme.AsseBackground"
+            android:layout_weight="1">
+            <TextView
+                style="@style/Theme.MainTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="@string/Main_TitleA" />
+
+            <TextView
+                style="@style/Theme.Subtitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Asse_SubTitleA" />
+
+            <TextView
+                style="@style/Theme.Text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name" />
+
+            <TextView
+                style="@style/Theme.Subtitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Asse_SubTitleB" />
+
+            <TextView
+                style="@style/Theme.Text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Asse_ADD" />
+
+            <TextView
+                style="@style/Theme.Subtitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Asse_SubTitleC" />
+
+            <TextView
+                style="@style/Theme.Text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Asse_DOC" />
+
+            <TextView
+                style="@style/Theme.Subtitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Asse_SubTitleD" />
+
+            <TextView
+                style="@style/Theme.Text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Asse_N" />
+        </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true">
+
+        <ImageView
+            style="@style/Theme.CenterPic"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/ic_launcher" />
+    </RelativeLayout>
+</RelativeLayout>

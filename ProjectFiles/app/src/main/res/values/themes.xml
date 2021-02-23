@@ -127,7 +127,8 @@
     <style name="editText">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">60dp</item>
-        <item name="android:layout_margin">10dp</item>
+        <item name="android:layout_margin">50dp</item>
+
     </style>
 
 
@@ -149,6 +150,78 @@
         <item name="android:textSize">50sp</item>
         <item name="android:textColor">@color/white</item>
         <item name="android:textAlignment">center</item>
+    </style>
+
+    //--------------------------------------------------------------------
+    //CARD VIEW
+    <style name="layoutCard">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">250dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">25dp</item>
+    </style>
+
+    <style name="layoutCard.Family">
+        <item name="android:background">#ffeebb</item>
+    </style>
+
+    <style name="layoutCard.Number">
+        <item name="android:background">#fdffbc</item>
+    </style>
+
+    <style name="layoutCard.Color">
+        <item name="android:background">#ffdcb8</item>
+    </style>
+
+    <style name="layoutCard.Phrases">
+        <item name="android:background">#ffc1b6</item>
+    </style>
+
+    <style name="Background">
+        <item name="android:background">#fff7da</item>
+    </style>
+
+    <style name="layoutCard.picture">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_marginBottom">1dp</item>
+        <item name="android:paddingBottom">15dp</item>
+    </style>
+
+    <style name="layoutCard.picture.DEU">
+        <item name="android:src">@drawable/deu</item>
+    </style>
+
+    <style name="layoutCard.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_marginBottom">15dp</item>
+        <item name="android:textColor">@color/cardview_dark_background</item>
+    </style>
+
+    //--------------------------------------------------------------------
+    //LIST CARD
+
+    <style name="listItem">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="listItem.German">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">bottom</item>
+    </style>
+
+    <style name="listItem.English">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">italic</item>
     </style>
 
 </resources>

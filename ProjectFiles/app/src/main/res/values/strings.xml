@@ -50,7 +50,7 @@
     <string name="EditHint">Full Name</string>
     <string name="tickIf"> Tick this if you are alone:</string>
     <string name="butLaunch"> Launch Personal Safety</string>
-    <string name="butDone">Done</string>
+    <string name="butDone" translatable="false">Done</string>
 
     //--------------------------------------------------------------------
     //BIG TEXT
@@ -58,5 +58,14 @@
     <string name="Line3True"> Ich bin allein und verloren. Bitte bringen Sie mich zur nächsten Polizeistation.</string>
     <string name="Line3False">Wir sind verloren. Bitte bringen Sie uns zur nächsten Polizeistation.</string>
     <string name="Line4">Die persönliche Sicherheit ist aktiv und Familienmitglieder verfolgen dieses Telefon</string>
+
+    //--------------------------------------------------------------------
+    //CARDVIEW
+    <string name="FamAct">Family</string>
+    <string name="NumAct">Numbers</string>
+    <string name="ColAct">Colours</string>
+    <string name="PhrAct">Phrases</string>
+    <string name="play_button">Play Button</string>
+    <string name="image">Image</string>
 
 </resources>

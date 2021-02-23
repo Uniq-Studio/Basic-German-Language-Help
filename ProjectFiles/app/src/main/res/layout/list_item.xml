@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="@dimen/item_height"
+    style="@style/Background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="@dimen/item_height"
+        android:layout_height="@dimen/item_height"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        tools:src="@drawable/number_one"
+        android:contentDescription="@string/image" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_height"
+        android:orientation="vertical"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp">
+
+        <TextView
+            android:id="@+id/German_Text"
+            style="@style/listItem.German"
+            tools:text="Eins"/>
+
+        <TextView
+            android:id="@+id/English_Text"
+            style="@style/listItem.English"
+            tools:text="One"/>
+    </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="35dp"
+        android:src="@android:drawable/ic_media_play"
+        android:contentDescription="@string/play_button" />
+
+</RelativeLayout>
