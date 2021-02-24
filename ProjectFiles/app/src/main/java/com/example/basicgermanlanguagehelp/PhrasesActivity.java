@@ -14,6 +14,10 @@ public class PhrasesActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.word_list);
 
+
+        //If the device is in landscape, Run the buttons command to change to different sections
+        //but not when in portrait as there are no views named that in portrait and could
+        //cause a crash
         if (getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE) {
             //region Buttons
             //region Linking Views

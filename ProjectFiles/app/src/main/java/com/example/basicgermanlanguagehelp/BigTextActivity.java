@@ -15,8 +15,10 @@ public class BigTextActivity extends AppCompatActivity {
 
         //region PreCreated Code to launch the view
         super.onCreate(savedInstanceState);
-        //Loads into the About Screen
+        //Loads into the Big Text Screen
         setContentView(R.layout.activity_bigtext);
+
+        //Linking Views to IDs
         TextView username = findViewById(R.id.NameBox);
         TextView isAlone = findViewById(R.id.aloneText);
 
@@ -26,13 +28,16 @@ public class BigTextActivity extends AppCompatActivity {
         String userNameReload = preferences.getString("usersName", "");
         boolean aloneReload = preferences.getBoolean("alone",false);
         //Where should the info load
-
         username.setText(userNameReload);
 
+        //If the user didn't check the alone box
         if (!aloneReload){
+            //Displays we are lost . . .
             isAlone.setText(R.string.Line3False);
         }
+        //If the user check the alone box
         else if (aloneReload){
+            //Displays im alone and lost . . .
             isAlone.setText(R.string.Line3True);
         }
     }

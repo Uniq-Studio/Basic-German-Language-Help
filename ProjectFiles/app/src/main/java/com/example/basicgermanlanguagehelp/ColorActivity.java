@@ -13,8 +13,13 @@ public class ColorActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        //Load Into the list view
         setContentView(R.layout.word_list);
 
+
+        //If the device is in landscape, Run the buttons command to change to different sections
+        //but not when in portrait as there are no views named that in portrait and could
+        //cause a crash
         if (getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE) {
             //region Buttons
             //region Linking Views
@@ -77,5 +82,7 @@ public class ColorActivity extends AppCompatActivity {
             //endregion
             //endregion
         }
+
+
     }
 }

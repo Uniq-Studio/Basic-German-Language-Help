@@ -18,6 +18,8 @@ public class MainMenuActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         //endregion
 
+
+
         //region Buttons
         //region Linking Views
         RelativeLayout family = findViewById(R.id.FamilyCard);
