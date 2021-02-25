@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="familyActivity">#655E4A</color>
+    <color name="numberActivity">#64654A</color>
+    <color name="colorActivity">#655748</color>
+    <color name="phrasesActivity">#654c48</color>
+</resources>
